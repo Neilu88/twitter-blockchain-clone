@@ -115,7 +115,6 @@ const Home = () => {
           ></img>
           <div className="tweetBox">
             <TextArea
-              label="tweeTxtArea"
               name="tweetTxtArea"
               value="Ethereum is the wave!!!"
               type="text"
