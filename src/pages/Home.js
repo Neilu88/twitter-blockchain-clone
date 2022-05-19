@@ -120,6 +120,8 @@ const Home = () => {
               value="Ethereum is the wave!!!"
               type="text"
               onChange={(e) => setTweet(e.target.value)}
+              width="95%"
+              height="90"
             />
             {selectedFile && (
               <img alt="" src={selectedFile} className="tweetImg"></img>
