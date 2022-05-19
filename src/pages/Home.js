@@ -115,11 +115,11 @@ const Home = () => {
           ></img>
           <div className="tweetBox">
             <TextArea
+              label=""
               name="tweetTxtArea"
               value="Ethereum is the wave!!!"
               type="text"
               onChange={(e) => setTweet(e.target.value)}
-              width="95%"
             />
             {selectedFile && (
               <img alt="" src={selectedFile} className="tweetImg"></img>
