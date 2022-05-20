@@ -80,7 +80,7 @@ const TweetInFeed = ({ profile }) => {
                       12
                     </div>
                     <div className="interactionNums">
-                      <Icon fill="#3f3f3f" size={20} svg="matic" />
+                      <Icon fill="#3f3f3f" size={20} svg="eth" />
                     </div>
                   </div>
                 </div>
